@@ -4,11 +4,25 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Conveyer_Belt
+    100004: Conveyor_Side_L
+    100006: Conveyor_Side_R
     400000: //RootNode
+    400002: Conveyer_Belt
+    400004: Conveyor_Side_L
+    400006: Conveyor_Side_R
     2100000: Mat
     2300000: //RootNode
+    2300002: Conveyer_Belt
+    2300004: Conveyor_Side_L
+    2300006: Conveyor_Side_R
     3300000: //RootNode
+    3300002: Conveyer_Belt
+    3300004: Conveyor_Side_L
+    3300006: Conveyor_Side_R
     4300000: Conveyer_Belt
+    4300002: Conveyor_Side_R
+    4300004: Conveyor_Side_L
   externalObjects: {}
   materials:
     importMaterials: 1
