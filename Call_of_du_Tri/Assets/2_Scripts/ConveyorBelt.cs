@@ -8,8 +8,8 @@ public class ConveyorBelt : MonoBehaviour {
     void FixedUpdate()
     {
         Rigidbody rigidbody = GetComponent<Rigidbody>();
-        rigidbody.position -= transform.forward * speed * Time.deltaTime;
-        rigidbody.MovePosition (rigidbody.position + transform.forward * speed * Time.deltaTime);
+        rigidbody.position -= transform.forward * speed * Time.fixedDeltaTime;
+        rigidbody.MovePosition (rigidbody.position + transform.forward * speed * Time.fixedDeltaTime);
     }
 
 }
