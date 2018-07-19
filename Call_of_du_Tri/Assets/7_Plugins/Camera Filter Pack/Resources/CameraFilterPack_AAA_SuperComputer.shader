@@ -107,7 +107,7 @@ float voronoi(in float2 x)
 {
 	float2 p = floor(x);
 	float2 f = frac(x);
-	float2 res = float2(8.0);
+	float2 res = float2(8.0,8.0);
 	for(int j = -1; j <= 1; j ++)
 	{
 		for(int i = -1; i <= 1; i ++)

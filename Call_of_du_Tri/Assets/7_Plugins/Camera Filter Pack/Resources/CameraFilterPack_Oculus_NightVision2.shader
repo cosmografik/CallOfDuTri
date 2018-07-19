@@ -118,8 +118,12 @@ Shader "CameraFilterPack/Oculus_NightVision2" {
 				
 				float2 position = float2(uv.x * wide, uv.y);
 				
-				Circle circle_a = Circle(float2(_BinocularDistance, 0.5), _BinocularSize);
-				Circle circle_b = Circle(float2(wide - _BinocularDistance, 0.5), _BinocularSize);
+				Circle circle_a;
+				circle_a.center = float2(_BinocularDistance, 0.5);
+				circle_a.radius = _BinocularSize;
+				Circle circle_b;
+				circle_b.center = float2(wide - _BinocularDistance, 0.5);
+				circle_b.radius = _BinocularSize;
 		
 				float4 mask_a = circle_mask_color(circle_a, position);
 				float4 mask_b = circle_mask_color(circle_b, position);

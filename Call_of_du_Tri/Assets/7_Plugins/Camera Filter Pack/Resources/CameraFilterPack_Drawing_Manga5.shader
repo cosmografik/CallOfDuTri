@@ -106,7 +106,7 @@ float4 frag (v2f i) : COLOR
 	float2 uv 			= i.texcoord.xy;
 	float3 color;
 	float4 color2 = tex2D(_MainTex,uv);
-	color = color2.rgb+smoothstep(0.4+(_DotSize/16)-0.6, 0.7+(_DotSize/8)-.6, color.r);
+	color = color2.rgb+smoothstep(0.4+(_DotSize/16)-0.6, 0.7+(_DotSize/8)-.6, 0.0);
 	fixed rasterPattern = added(i.texcoord.xy , 2136.2812 / _DotSize/0.6);
 	if (color.r>0.4)
 	{

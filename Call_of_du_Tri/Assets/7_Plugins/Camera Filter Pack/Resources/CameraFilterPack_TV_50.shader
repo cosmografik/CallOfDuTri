@@ -98,10 +98,16 @@ fixed4 frag (v2f i) : COLOR
 	col.rgb = dot(col.rgb, float3(.222, .707, .071));
 	float noiseIntensity = .75;
 	float pixelDensity = 250.;
-	float3 colorx = float3(clamp(rand(
-		float2(floor(uv.x * pixelDensity * 1.0), floor(uv.y * pixelDensity)) *
-		_TimeX / 1000.
-	) + 1. - noiseIntensity, 0., 1.));
+	float3 innerCol = float3(
+					floor(uv.x * pixelDensity * 1.0),
+					floor(uv.y * pixelDensity),
+					0.0
+				) * _TimeX / 1000.;
+	float3 colorx = float3(
+		clamp(rand(innerCol.r) + 1. - noiseIntensity, 0., 1.),
+		clamp(rand(innerCol.g) + 1. - noiseIntensity, 0., 1.),
+		clamp(rand(innerCol.b) + 1. - noiseIntensity, 0., 1.)
+	);
 	
 	
    	float barHeight = 6.;

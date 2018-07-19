@@ -166,7 +166,8 @@ float4 frag (v2f i) : COLOR
 	float interior = 1.0 - smoothstep(interiorSize-1.0, interiorSize, dist);
 	float4 result;
 	result.rgb=lerp(_BorderColor.rgb,texel.rgb,interior);
-	result.rgb+=float3(1-noise2(_TimeX/4+uv.x));
+	float f3 = 1-noise2(_TimeX/4+uv.x);
+	result.rgb+=float3(f3,f3,f3);
 	result.rgb*=_HexaColor.rgb;
 	result.rgb/=video.rgb/2;
 	result /= vignette*2;

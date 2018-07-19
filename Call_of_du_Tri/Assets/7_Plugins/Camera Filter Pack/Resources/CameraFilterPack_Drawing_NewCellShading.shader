@@ -79,7 +79,7 @@ Shader "CameraFilterPack/Drawing_NewCellShading" {
 			    
 			    if(length(float2(xValue, yValue)) > _Threshold)
 			    {
-			        color = fixed4(0);
+			        color = fixed4(0,0,0,0);
 			    }
 			    else
 			    {

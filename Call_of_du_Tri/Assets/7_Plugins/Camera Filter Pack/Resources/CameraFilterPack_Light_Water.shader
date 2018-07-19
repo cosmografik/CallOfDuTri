@@ -62,7 +62,7 @@ float4 frag (v2f i) : COLOR
 	float2 uv = i.texcoord.xy;
 	float2 sp = uv - 1.2;//vec2(.25, .35);
 	
-	float2 p = sp*_Distance - float2(10.0);
+	float2 p = sp*_Distance - float2(10.0,10.0);
 	float2 w = p;
 	float c = 0.2;
 	float inten = 0.01;
@@ -71,7 +71,7 @@ float4 frag (v2f i) : COLOR
 	c += 1.2/length(float2(p.x / (sin(w.x+t)/inten),p.y / (cos(w.y+t)/inten)));
 	c /= 1.5;
 	c = 1.5-sqrt(c*_Size);
-	float4 ax = float4(float3(c*c), 999.0) + float4(0.0, 0.3, 0.5, 1.0);
+	float4 ax = float4(c*c,c*c,c*c,999.0) + float4(0.0, 0.3, 0.5, 1.0);
 	
 	float3 lrp=ax.rgb*_Alpha;
 	
