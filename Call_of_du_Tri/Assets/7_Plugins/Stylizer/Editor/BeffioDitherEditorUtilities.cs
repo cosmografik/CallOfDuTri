@@ -10,7 +10,7 @@ namespace Beffio.Dithering
 	{
 		/* BRANDING */
 		#region Branding
-		private static string _brandingLogoPath = "Assets/Stylizer/Editor/StylizerLogo.png";
+		private static string _brandingLogoPath = "Assets/7_Plugins/Stylizer/Editor/StylizerLogo.png";
 
 		/// <summary>
 		/// Draws inspector branding centered within the panel.

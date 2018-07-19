@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1513652557208692
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,8 +407,8 @@ MonoBehaviour:
   hitMarker: {fileID: 1476533947152082, guid: 207b6f72da1dd432bb72f04d694cd9c7, type: 2}
   goodHitMarker: {fileID: 1181394092852018, guid: c163ead77fdf64aa68adf98853e01c60,
     type: 2}
-  upForce: 5
-  pushForce: 2
+  upForce: 20
+  pushForce: 8
   torque: 3
 --- !u!114 &114403548432847770
 MonoBehaviour:

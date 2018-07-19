@@ -43,7 +43,6 @@ public class TrackerPoint : MonoBehaviour {
 		if (num == this.player){
 			p.z = 1;
 			p = AimTracker.AxesToScreen(p);
-			Debug.Log(p);
 			Ray r = Camera.main.ScreenPointToRay(p);
 			RaycastHit rch;
 			if (Physics.Raycast(r, out rch)){
