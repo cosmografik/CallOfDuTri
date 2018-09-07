@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 65603646388028998}
   - component: {fileID: 54438728201455248}
   m_Layer: 0
-  m_Name: TrashCube
-  m_TagString: Untagged
+  m_Name: LongTrashCube
+  m_TagString: green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
