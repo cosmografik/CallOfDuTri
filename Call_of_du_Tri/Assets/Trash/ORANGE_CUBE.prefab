@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 65603646388028998}
   - component: {fileID: 54438728201455248}
   m_Layer: 0
-  m_Name: RED_CUBE
-  m_TagString: red
+  m_Name: ORANGE_CUBE
+  m_TagString: green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1518482927918150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4.58, z: -209.86002}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 19d72387580964675b879aa143ef37ec, type: 2}
+  - {fileID: 2100000, guid: 65d2479ff902d4ccab953ec5cfb9ac6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
