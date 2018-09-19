@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4148170616716484}
   - component: {fileID: 33061011874172438}
   - component: {fileID: 23436511261483554}
-  - component: {fileID: 65303755076962490}
   - component: {fileID: 54391777856322358}
+  - component: {fileID: 136241800717742980}
   m_Layer: 0
   m_Name: COD_BottleOfWater
   m_TagString: Untagged
@@ -36,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543323187071116}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.068249, y: -5.3, z: -179.26575}
+  m_LocalRotation: {x: 0.20806266, y: -0.27575892, z: 0.61178, w: -0.7116125}
+  m_LocalPosition: {x: -2.2527766, y: 3.672, z: -194.85832}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.3660002, y: -319.639, z: -80.50201}
 --- !u!23 &23436511261483554
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 60cf2a5f5e02048e199b172cdd21dd21, type: 3}
+  - {fileID: 2100000, guid: 4261f0b41c7404ed6ae5e19d786b9598, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,23 +92,24 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543323187071116}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 0.7
+  m_Drag: 2.39
+  m_AngularDrag: 10.22
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65303755076962490
-BoxCollider:
+--- !u!136 &136241800717742980
+CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1543323187071116}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cf3088ac72e684b76acc975a721cfe73, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.40532044, y: 1.2567308, z: 0.3510178}
-  m_Center: {x: 0, y: 0.6283654, z: 0}
+  m_Radius: 0.2
+  m_Height: 1.33
+  m_Direction: 1
+  m_Center: {x: 0.0000019055199, y: 0.6283654, z: 0}

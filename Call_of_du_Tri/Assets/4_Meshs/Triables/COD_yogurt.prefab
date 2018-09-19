@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4054201042336506}
   - component: {fileID: 33833990696665790}
   - component: {fileID: 23271776353549660}
-  - component: {fileID: 65854452268620754}
   - component: {fileID: 54668487833827840}
+  - component: {fileID: 65332349080795252}
   m_Layer: 0
   m_Name: COD_yogurt
   m_TagString: Untagged
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321050721141418}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.623089, y: -5.3, z: -178.96997}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalPosition: {x: -1.2867212, y: 3.3528712, z: -191.053}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: fc114ad95c4c64fe0b9f7111cddb36cc, type: 3}
+  - {fileID: 2100000, guid: 86aa401dd19b34578b96ac7847ddb795, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,7 +84,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321050721141418}
-  m_Mesh: {fileID: 4300000, guid: fc114ad95c4c64fe0b9f7111cddb36cc, type: 3}
+  m_Mesh: {fileID: 4300000, guid: f3fdcca8863b74f188f0d079f33965b2, type: 3}
 --- !u!54 &54668487833827840
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -92,23 +92,23 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321050721141418}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 0.7
+  m_Drag: 1.3
+  m_AngularDrag: 5.93
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65854452268620754
+--- !u!65 &65332349080795252
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1321050721141418}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cf3088ac72e684b76acc975a721cfe73, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0841339, y: 0.8864485, z: 0.9955052}
+  m_Size: {x: 0.96, y: 0.95, z: 0.91}
   m_Center: {x: 0, y: 0.41749072, z: 0}
