@@ -22,6 +22,7 @@ public class JsonPump : MonoBehaviour {
 				path = args [i + 1];
 			}
 		}
+		if (string.IsNullOrEmpty(path)) return;
 
 
 		//Write some text to the test.txt file
