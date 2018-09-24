@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2045617175}
-  m_IndirectSpecularColor: {r: 0.32027447, g: 0.31084913, b: 0.26432133, a: 1}
+  m_IndirectSpecularColor: {r: 0.32027426, g: 0.31084877, b: 0.26432127, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -774,7 +774,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162771737}
   m_LocalRotation: {x: 0.000820264, y: 0, z: 0, w: 0.9999997}
-  m_LocalPosition: {x: -21.88, y: 3.14, z: -178.3}
+  m_LocalPosition: {x: -16.55, y: -0.96, z: -178.44}
   m_LocalScale: {x: 2, y: 2, z: 1.35}
   m_Children: []
   m_Father: {fileID: 0}
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5a94b01c23f42a28c65aa5764d9049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goodTag: orange
+  goodTag: blue
 --- !u!65 &162771740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -802,7 +802,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.16, y: 1, z: 3.83}
+  m_Size: {x: 3.16, y: 1, z: 4.63}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &169970063
 Prefab:
@@ -2711,7 +2711,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 764333807}
   m_LocalRotation: {x: 0.000820264, y: 0, z: 0, w: 0.9999997}
-  m_LocalPosition: {x: -21.88, y: 3.14, z: -172.72}
+  m_LocalPosition: {x: -16.55, y: -0.96, z: -172.33}
   m_LocalScale: {x: 2, y: 2, z: 1.35}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3385,7 +3385,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 965316962}
   m_LocalRotation: {x: 0.000820264, y: 0, z: 0, w: 0.9999997}
-  m_LocalPosition: {x: -23.59, y: 3.14, z: -184.15}
+  m_LocalPosition: {x: -17.7, y: -0.96, z: -184.5}
   m_LocalScale: {x: 2, y: 2, z: 1.35}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3402,7 +3402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5a94b01c23f42a28c65aa5764d9049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goodTag: blue
+  goodTag: orange
 --- !u!65 &965316965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3413,7 +3413,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.13, y: 1, z: 3.83}
+  m_Size: {x: 2.91, y: 1, z: 3.83}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1004008472
 GameObject:

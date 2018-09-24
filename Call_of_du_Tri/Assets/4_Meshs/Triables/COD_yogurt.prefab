@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 65332349080795252}
   m_Layer: 0
   m_Name: COD_yogurt
-  m_TagString: Untagged
+  m_TagString: orange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
