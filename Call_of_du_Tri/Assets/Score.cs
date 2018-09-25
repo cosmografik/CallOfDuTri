@@ -6,7 +6,7 @@ using UnityEngine;
 public class Record {
 	public int score;
 	public int updoots;
-	public int downdoots;
+	public int downdoots = 10;
 	public void Bump(){
 		score++;
 		updoots++;
